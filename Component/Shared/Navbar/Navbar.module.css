@@ -1,0 +1,55 @@
+.Navbar {
+    padding: 10px 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.Navbar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(180deg, #001927 0%, rgba(0, 45, 70, 0.5) 100%);
+    mix-blend-mode: normal;
+    z-index: 999999999;
+    mix-blend-mode: normal;
+    filter: blur(6px);
+}
+
+.NavbarMenu .MenuItam .Menu li a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5 !important;
+    margin-right: 30px;
+    transition: all linear .2s;
+}
+
+.Menu .NavbarBtn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E6E1E5;
+    padding: 10px;
+    border: 1px solid #00C999;
+    border-radius: 10px;
+    background-color: inherit;
+    transition: all linear .2s;
+}
+
+.Menu li a:hover {
+    color: #00C999 !important;
+}
+
+.Menu .NavbarBtn:hover {
+    background-color: #00C999;
+}
+
+.Menu .NavbarBtn a:hover {
+    color: #E6E1E5 !important;
+}
