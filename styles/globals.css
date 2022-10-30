@@ -23,3 +23,315 @@ p {
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
 }
+
+
+/*  Main button */
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E6E1E5;
+  padding: 10px;
+  border: 1px solid #00C999;
+  border-radius: 6px;
+  background-color: inherit;
+  transition: all linear .2s;
+}
+
+.button:hover {
+  background-color: #00C999;
+}
+
+.button a:hover {
+  color: #000000 !important;
+}
+
+
+.v_Button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E6E1E5;
+  padding: 10px;
+  border: 1px solid #00C999;
+  border-radius: 6px;
+  background-color: inherit;
+  transition: all linear .2s;
+
+}
+
+.v_Button:hover {
+  background-color: #00C999;
+  color: #000000 !important;
+}
+
+
+
+
+.g_Button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E6E1E5;
+  padding: 10px;
+  border: 1px solid #00C999;
+  border-radius: 6px;
+  background-color: inherit;
+  transition: all linear .2s;
+}
+
+.g_Button:hover {
+  background-color: #00C999;
+  color: #000000 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.modal-content {
+  background: #041835 !important;
+  border-radius: 20px !important;
+}
+
+.modal-header {
+  text-align: center !important;
+  border-bottom: 1px solid #00C999 !important;
+}
+
+
+
+.modal-title {
+  width: 100%;
+  color: #E6E1E5 !important;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+
+.btn-close {
+  background: url(/images/Close.svg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.btn-close:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.ShapImg {
+  text-align: center;
+}
+
+.headerText {
+  max-width: 780px;
+  margin: 0 auto;
+  margin-top: 44px;
+  margin-bottom: 73px;
+  text-align: center;
+}
+
+.headerText p {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #E6E1E5;
+}
+
+
+
+/* Skill Progress Bar */
+.Skills-bar {
+  padding: 0px 0px;
+
+}
+
+
+.Skills-bar .bar {
+  margin: 20px 0px;
+
+}
+
+
+
+
+.Skills-bar .bar:first-child {
+  margin: 0px 0px;
+
+}
+
+
+.Skills-bar .bar .info {
+  margin-bottom: 10px;
+}
+
+
+.Skills-bar .bar .info span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+
+
+.Skills-bar .bar .Progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: rgba(0, 201, 153, 0.16);
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(0, 201, 153, 0.16);
+  animation: animate 2s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+
+
+
+.Skills-bar .bar .Progress-line span {
+  height: 100%;
+  background: #00C999;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s 2s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+
+
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.Progress-line.image span {
+  width: 90%;
+
+}
+
+
+.Progress-line.brand span {
+  width: 92%;
+}
+
+
+
+.Progress-line.uiUx span {
+  width: 96%;
+}
+
+
+
+
+.Progress-line.content span {
+  width: 96%;
+
+}
+
+
+.Progress-line.seo span {
+  width: 94%;
+}
+
+
+
+.Progress-line.web span {
+  width: 98%;
+}
+
+
+.bar .Progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -14px;
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: rgba(0, 201, 153, 0.16);
+}
+
+
+
+
+.bar .Progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(0, 201, 153, 0.16);
+  padding: 5px 8px;
+  border-radius: 3px;
+
+}
+
+
+.Progress-line.image span::after {
+  content: "95%";
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.Progress-line.brand span::after {
+  content: "96%";
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Progress-line.uiUx span::after {
+  content: "94%";
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.Progress-line.web span::after {
+  content: "98%";
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.Progress-line.seo span::after {
+  content: "94%";
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Progress-line.content span::after {
+  content: "96%";
+  font-family: 'Montserrat', sans-serif;
+}

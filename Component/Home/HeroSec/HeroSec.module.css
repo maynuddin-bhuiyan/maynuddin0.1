@@ -1,0 +1,14 @@
+.HeroSec {
+    padding: 100px 0px;
+}
+
+.HeroSecImg {
+    text-align: left;
+}
+
+.HeroSecBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}

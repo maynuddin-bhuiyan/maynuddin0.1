@@ -1,0 +1,41 @@
+.StateSction {
+    border-top: 2px solid #ffd9d9;
+    display: flex;
+    grid-gap: 30px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Card {
+    border-top: 2px solid #00C999;
+    width: max-content !important;
+    margin-top: -2px;
+}
+
+.Card>h2 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #00C999;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Card p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase !important;
+    color: #00C999;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

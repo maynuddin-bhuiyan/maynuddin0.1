@@ -1,0 +1,83 @@
+.About {
+    margin-bottom: 200px;
+}
+
+.About h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.aboutMe {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+
+.aboutProgress {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.aboutMeImg {
+    margin-top: -70px;
+}
+
+.aboutMeImg img {
+    border-radius: 10px;
+}
+
+.aboutMeText {
+    margin-top: 20px;
+}
+
+.aboutMeText p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #E6E1E5;
+}
+
+
+.aboutSkill {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.Card {
+    text-align: center;
+}
+
+.Card h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Card p {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    max-width: 265px;
+    margin: 0px;
+}

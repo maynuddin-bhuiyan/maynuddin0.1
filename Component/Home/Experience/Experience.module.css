@@ -1,0 +1,149 @@
+.Experience h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+
+.arcticWolf {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.awardsWolf {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.earnedWolf {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.awardsCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.awardsCard .Card:nth-child(2) {
+    text-align: right !important;
+}
+
+.awardsCard .Card:nth-child(4) {
+    text-align: right !important;
+}
+
+.awardsCard .Card:nth-child(2) p {
+    margin-left: auto !important;
+}
+
+.awardsCard .Card:nth-child(4) p {
+    margin-left: auto !important;
+}
+
+.arcticWolf>h3 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #00C999;
+    border-bottom: 2px dotted #00C999;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.arcticWolf h5 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin-bottom: 15px;
+}
+
+.arcticWolf p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    max-width: 500px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.arcticWolf a {
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: 0.05em;
+    color: #00C999 !important;
+}
+
+.arcticWolf h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
+.awardsWolf>h3 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #00C999;
+    border-bottom: 2px dotted #00C999;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.awardsCard .Card h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin-bottom: 10px;
+}
+
+
+.awardsCard .Card h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #00C999;
+}
+
+
+.awardsCard .Card p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    max-width: 300px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
