@@ -23,7 +23,7 @@ const HeroSec = () => {
                 <span>Hi</span> {"I'm"}
               </h3>
               <h2>Maynuddin Bhuiyan</h2>
-              <h3>I work as A full-stack Web developer</h3>
+              <h4>I work as A full-stack Web developer</h4>
               <p>Currently Im working at</p>
             </div>
             <HeroCarousel />

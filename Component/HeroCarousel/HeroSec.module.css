@@ -17,6 +17,18 @@
     margin-top: 0px;
 }
 
+.CardText h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    text-transform: capitalize;
+}
+
 
 .CardBtn i {
     color: #00C999 !important;
@@ -24,6 +36,10 @@
     transition: all linear .2s;
 }
 
-.CardBtn :hover {
-    color: #000000;
+.CardBtn :hover span {
+    color: #000000 !important;
+}
+
+.CardBtn :hover i {
+    color: #000000 !important;
 }

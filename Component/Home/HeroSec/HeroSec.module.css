@@ -12,3 +12,61 @@
     justify-content: flex-start;
     gap: 30px;
 }
+
+
+.HeroSecText h3 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #00C999;
+}
+
+.HeroSecText>h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #00C999;
+}
+
+.HeroSecText h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin: 22px 0px;
+}
+
+.HeroSecText h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin-bottom: 22px;
+}
+
+.HeroSecText p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+}

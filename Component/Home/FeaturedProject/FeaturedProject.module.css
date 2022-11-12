@@ -1,0 +1,206 @@
+.featuredProject {
+    margin: 200px 0px;
+}
+
+.featuredProject h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#projectCard {
+    margin: 100px 0px;
+}
+
+#projectCard:nth-child(2) {
+    flex-direction: row-reverse !important;
+}
+
+.cardText {
+    position: relative;
+}
+
+.cardText h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #00C999;
+    /* text-align: center; */
+}
+
+.cardText h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin-bottom: 220px;
+    /* text-align: center; */
+}
+
+
+.projectText {
+    position: absolute;
+    background-color: #E6E1E5;
+    padding: 20px;
+    top: 80px;
+    left: 0px;
+    width: 650px;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+.projectText>p {
+    color: black;
+}
+
+.cardText>p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.projectDes {
+    display: flex;
+}
+
+.projectDes>p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #E6E1E5;
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 470px;
+}
+
+
+.projectDes>h5 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #00C999;
+    width: 140px;
+}
+
+.projectImage img {
+    text-align: center;
+}
+
+
+#projectCard:nth-child(2) .projectText {
+    left: -100px !important;
+}
+
+
+
+.blogPagination {
+    width: max-content !important;
+    border: 0px !important;
+    box-shadow: none !important;
+    border-radius: 30px !important;
+    margin-left: auto !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    margin-top: 0px !important;
+}
+
+.PaginationButton {
+    color: #0a021d !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 5px !important;
+    margin-right: 20px !important;
+    padding: 13px !important;
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 500;
+    line-height: 22px;
+    transition: all linear 0.2s;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: inherit;
+}
+
+.featuredProject button {
+    width: 100px;
+    margin-left: auto;
+}
+
+.PaginationButton i {
+    font-family: "Inter";
+    color: #00C999;
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.PaginationItem {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: inherit !important;
+    color: #00C999 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 20px !important;
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 22px;
+    transition: all linear 0.2s;
+    box-shadow: none !important;
+    padding: 13px !important;
+    border-radius: 10px;
+    border: 1px solid #00C999;
+    cursor: pointer;
+}
+
+.PaginationItem.active {
+    background-color: inherit !important;
+    color: #e3ecff !important;
+}
+
+.Header:hover .HeaderBtn {
+    color: #ffffff;
+}
+
+.Header:hover {
+    background-color: #6128e3;
+}
+
+.PaginationButton:hover {
+    background-color: #00C999 !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    border: 1px solid #e3ecff;
+}
+
+.PaginationButton:hover i {
+    color: #ffffff !important;
+}
+
+.PaginationItem:hover {
+    background-color: #00C999 !important;
+    color: #e3ecff !important;
+    border-radius: 10px;
+    border: 1px solid #e3ecff;
+}

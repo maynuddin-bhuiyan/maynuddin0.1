@@ -2,6 +2,7 @@ import Head from "next/head";
 import Script from "next/script";
 // import "slick-carousel/slick/slick-theme.css";
 // import "slick-carousel/slick/slick.css";
+import 'remixicon/fonts/remixicon.css';
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {

@@ -45,6 +45,7 @@ const Experience = () => {
                     </a>
                   </p>
                   <h4>{item?.company}</h4>
+                  <p>{item?.location}</p>
                 </div>
               ))}
             </div>
